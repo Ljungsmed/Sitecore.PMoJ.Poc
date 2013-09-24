@@ -1,0 +1,117 @@
+----item----
+version: 1
+id: {7BCFAF6A-85DD-4309-9113-A7EC4516FDBC}
+database: master
+path: /sitecore/system/Modules/Web Forms for Marketers/PMoJ/LogIn
+parent: {286855A6-864C-4DC3-A952-D9CEF6774268}
+name: LogIn
+master: {00000000-0000-0000-0000-000000000000}
+template: {FFB1DA32-2764-47DB-83B0-95B843546A7E}
+templatekey: Form
+
+----field----
+field: {A42052F7-6C18-424A-A2A1-7A72054CB1A6}
+name: Show Title
+key: show title
+content-length: 1
+
+0
+----field----
+field: {46FB324A-9741-43BD-A0C9-5081A39D40AA}
+name: Show Introduction
+key: show introduction
+content-length: 1
+
+0
+----field----
+field: {FAEACD39-B059-4F46-BEC4-74BA468A97B8}
+name: Show Footer
+key: show footer
+content-length: 1
+
+0
+----field----
+field: {A7F779B9-5FCF-45CC-866B-7C973F5C4FAC}
+name: Save Actions
+key: save actions
+content-length: 849
+
+<?xml version="1.0" encoding="utf-16"?>
+<li xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <g id="{E5EABB1F-40BC-45BB-8D87-3B6C239B521B}" displayName="Actions" onclick="javascript:return scForm.postEvent(this,event,'forms:addaction')">
+    <li id="{5A3FAB49-8103-4C54-952B-A408F6A93BF2}" unicid="C4D1EC0411A14FF08CF0787E1937E970">
+      <parameters>&amp;lt;usernamefield&amp;gt;{BDA08DE9-4C7B-40A8-BF13-C1CFA8EC511D}&amp;lt;/usernamefield&amp;gt;&amp;lt;domainfield&amp;gt;extranet&amp;lt;/domainfield&amp;gt;&amp;lt;auditfield&amp;gt;NoAudit&amp;lt;/auditfield&amp;gt;&amp;lt;associateuserwithvisitor&amp;gt;True&amp;lt;/associateuserwithvisitor&amp;gt;&amp;lt;passwordfield&amp;gt;{6408B682-06DD-4F55-AA34-8963C867B316}&amp;lt;/passwordfield&amp;gt;</parameters>
+    </li>
+  </g>
+</li>
+----field----
+field: {AF08C32B-F101-44A4-BAAE-677383E8EB02}
+name: Check Actions
+key: check actions
+content-length: 861
+
+<?xml version="1.0" encoding="utf-16"?>
+<li xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <g id="{10FE9225-5E6C-4896-9CD2-880D6D48C4CC}" displayName="Check Actions">
+    <li id="{2D5B5061-747A-4477-BD41-E746EAFEB231}" unicid="89F18F7C96F4469A9470057CE421A115">
+      <parameters />
+    </li>
+    <li id="{BFEE46F4-37D2-4133-9203-1370480410A9}" unicid="6C0CB32F78FF47B0BE37A70A79D9D613">
+      <parameters>&amp;lt;failedmessage&amp;gt;The user name or password is incorrect&amp;lt;/failedmessage&amp;gt;&amp;lt;usernamefield&amp;gt;{BDA08DE9-4C7B-40A8-BF13-C1CFA8EC511D}&amp;lt;/usernamefield&amp;gt;&amp;lt;domainfield&amp;gt;extranet&amp;lt;/domainfield&amp;gt;&amp;lt;passwordfield&amp;gt;{6408B682-06DD-4F55-AA34-8963C867B316}&amp;lt;/passwordfield&amp;gt;</parameters>
+    </li>
+  </g>
+</li>
+----version----
+language: en
+version: 1
+revision: 31b13597-a256-4797-b3a8-022e18fb24a0
+
+----field----
+field: {86D6A401-5A20-49C9-A2F8-0312398EE946}
+name: Title
+key: title
+content-length: 6
+
+Log In
+----field----
+field: {B71296B6-32B9-4703-A8CB-FB7437271103}
+name: Name
+key: name
+content-length: 6
+
+Log In
+----field----
+field: {9C4C1994-5140-49D3-BAD7-DB997816F816}
+name: Success Page
+key: success page
+content-length: 52
+
+<link id="{00000000-0000-0000-0000-000000000000}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130923T222845
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+31b13597-a256-4797-b3a8-022e18fb24a0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130923T223738:635155726583269460
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

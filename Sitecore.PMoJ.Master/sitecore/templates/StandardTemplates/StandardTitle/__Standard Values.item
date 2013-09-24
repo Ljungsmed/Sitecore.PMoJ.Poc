@@ -1,0 +1,23 @@
+----item----
+version: 1
+id: {60F4ED38-B337-4199-8F41-E658F9A4E777}
+database: master
+path: /sitecore/templates/StandardTemplates/StandardTitle/__Standard Values
+parent: {DF9CD0CA-7D28-4341-90BF-FB42494F87D0}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {DF9CD0CA-7D28-4341-90BF-FB42494F87D0}
+templatekey: StandardTitle
+
+----version----
+language: en
+version: 1
+revision: e5ef9507-063d-43f8-a122-7d9db51e29cd
+
+----field----
+field: {56D5A79C-9835-4334-BDDF-53C3CB583E72}
+name: Title
+key: title
+content-length: 5
+
+$name
