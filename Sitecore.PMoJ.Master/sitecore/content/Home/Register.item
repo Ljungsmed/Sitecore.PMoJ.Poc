@@ -9,17 +9,10 @@ master: {00000000-0000-0000-0000-000000000000}
 template: {70C0EABF-6183-41A8-AA83-475E0AF4A47B}
 templatekey: Standard Page
 
-----field----
-field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
-name: __Renderings
-key: __renderings
-content-length: 341
-
-<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{031ADF42-BB85-4369-88FB-E9EDB5FDF739}"><r ds="" id="{6D3B4E7D-FEF8-4110-804A-B56605688830}" par="FormID=%7BF4CCDEE0-4D88-4F04-9002-A63F0636A805%7D&amp;ReadQueryString" ph="main content" uid="{29CDE70F-90AD-4F24-9EF0-F21770DDF781}" /></d></r>
 ----version----
 language: en
 version: 1
-revision: 281b74d0-1f4e-4918-8e53-e610cd92818b
+revision: 9ab53cdb-605d-4cf1-b004-a1d42c36de92
 
 ----field----
 field: {56D5A79C-9835-4334-BDDF-53C3CB583E72}
@@ -41,14 +34,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-281b74d0-1f4e-4918-8e53-e610cd92818b
+9ab53cdb-605d-4cf1-b004-a1d42c36de92
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130923T221611:635155713719965101
+20130924T115029:635156202294806981
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

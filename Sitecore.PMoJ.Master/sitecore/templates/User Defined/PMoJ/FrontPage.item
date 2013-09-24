@@ -17,6 +17,13 @@ content-length: 38
 
 {039DCC59-4A43-4383-ADF9-8FCAFC4D0005}
 ----field----
+field: {F7D48A55-2158-4F02-9356-756654404F73}
+name: __Standard values
+key: __standard values
+content-length: 38
+
+{3090CA2D-B463-4DEA-921B-644A5F3C326F}
+----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
 key: __icon
@@ -26,7 +33,7 @@ Network/16x16/earth2.png
 ----version----
 language: en
 version: 1
-revision: ecdbea79-0d2c-4197-b014-72158351994f
+revision: 8bf90c05-f9ff-4d05-8958-bd4c290e8160
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -48,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ecdbea79-0d2c-4197-b014-72158351994f
+8bf90c05-f9ff-4d05-8958-bd4c290e8160
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130923T214509:635155695099319376
+20130924T114734:635156200541556981
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -61,6 +61,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HalloUser.ascx.cs">
+      <DependentUpon>HalloUser.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HalloUser.ascx.designer.cs">
+      <DependentUpon>HalloUser.ascx</DependentUpon>
+    </Compile>
     <Compile Include="layouts\PMoJ\BlankLayout.aspx.cs">
       <DependentUpon>BlankLayout.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -73,8 +80,11 @@
   <ItemGroup>
     <None Include="Properties\PublishProfiles\PMoJ.pubxml" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
+    <Folder Include="layouts\PMoJ\Sublayouts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="HalloUser.ascx" />
     <Content Include="layouts\PMoJ\BlankLayout.aspx">
       <SubType>ASPXCodeBehind</SubType>
     </Content>

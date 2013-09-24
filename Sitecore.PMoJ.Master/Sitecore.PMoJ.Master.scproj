@@ -27,7 +27,7 @@
     <RecursiveDeployAction>Ignore</RecursiveDeployAction>
     <SitecoreDeployFolder>C:\inetpub\wwwroot\SitecoreMinistryOfJustice\Website</SitecoreDeployFolder>
     <SitecoreWebUrl>http://sitecoreministryofjustice/</SitecoreWebUrl>
-    <SitecoreAccessGuid>f749da1e-29e6-4463-a12c-ca79e7b98453</SitecoreAccessGuid>
+    <SitecoreAccessGuid>2ac0963e-16e3-4564-ab4c-67bfb5488da2</SitecoreAccessGuid>
     <InstallSitecoreConnector>True</InstallSitecoreConnector>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
@@ -44,9 +44,6 @@
     </AssemblyAttributes>
   </ItemGroup>
   <ItemGroup>
-    <ExcludedAssemblies Include="Sitecore.%2a.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <SitecoreItem Include="sitecore\content.item">
       <Icon>/temp/IconCache/People/16x16/cubes_blue.png</Icon>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
@@ -60,6 +57,7 @@
     <SitecoreItem Include="sitecore\content\Home\Register.item">
       <Icon>/temp/IconCache/Applications/16x16/document.png</Icon>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
     <SitecoreItem Include="sitecore\layout.item">
       <Icon>/temp/IconCache/Applications/16x16/windows.png</Icon>
@@ -211,6 +209,9 @@
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
+  </ItemGroup>
+  <ItemGroup>
+    <ExcludedAssemblies Include="Sitecore.Kernel.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" />
 </Project>
