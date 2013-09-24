@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.PMoJ.Poc", "Sitecore.PMoJ.Poc\Sitecore.PMoJ.Poc.csproj", "{468D9152-1156-4C54-BD3A-C28D4B73D0BC}"
 EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Sitecore.PMoJ.Master", "Sitecore.PMoJ.Master\Sitecore.PMoJ.Master.scproj", "{128076E0-0801-43FC-B9FC-0C52D6EAFED4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,12 @@ Global
 		{468D9152-1156-4C54-BD3A-C28D4B73D0BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{468D9152-1156-4C54-BD3A-C28D4B73D0BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{468D9152-1156-4C54-BD3A-C28D4B73D0BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{128076E0-0801-43FC-B9FC-0C52D6EAFED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{128076E0-0801-43FC-B9FC-0C52D6EAFED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{128076E0-0801-43FC-B9FC-0C52D6EAFED4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{128076E0-0801-43FC-B9FC-0C52D6EAFED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{128076E0-0801-43FC-B9FC-0C52D6EAFED4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{128076E0-0801-43FC-B9FC-0C52D6EAFED4}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
