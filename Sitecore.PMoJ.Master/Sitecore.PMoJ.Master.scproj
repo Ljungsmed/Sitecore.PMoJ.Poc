@@ -151,14 +151,18 @@
       <ExcludeItemFrom>
       </ExcludeItemFrom>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
-      <Icon>?</Icon>
+      <Icon>/temp/IconCache/Applications/16x16/folder.png</Icon>
     </SitecoreItem>
     <SitecoreItem Include="sitecore\layout\Sublayouts\PMoJ\HalloUser.item">
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
       <ExcludeItemFrom>
       </ExcludeItemFrom>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
-      <Icon>?</Icon>
+      <Icon>/temp/IconCache/Software/16x16/element_selection.png</Icon>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Sublayouts\PMoJ\QuestionaireContainer.item">
+      <Icon>/temp/IconCache/Software/16x16/element_selection.png</Icon>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
     <SitecoreItem Include="sitecore\system.item">
       <Icon>/temp/IconCache/People/16x16/workstation1.png</Icon>

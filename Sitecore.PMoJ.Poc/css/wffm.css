@@ -1,19 +1,62 @@
-﻿.scfSectionLegend
+﻿#questionaireContainer .scfSectionLegend
+{
+    border: none !important;
+    margin: 0 0 15px 20px !important;
+    padding: 0 !important;
+}
+
+#questionaireContainer .scfSingleLineTextBorder, .scfEmailBorder, .scfRadioButtonListGeneralPanel, .scfMultipleLineTextBorder
+{
+    margin: 0 0 0 50px !important;
+} 
+
+#questionaireContainer .scfSectionBorderAsFieldSet
 {
     border: none !important;
 }
 
-.scfSectionBorderAsFieldSet
+#questionaireContainer .scfSingleLineGeneralPanel, .scfMultipleLineGeneralPanel, .scfEmailGeneralPanel
 {
-    border: none !important;
+    float: none !important;
 }
 
-fieldset
+#questionaireContainer .scfRadioButtonListLabel
 {
-    border: none !important;
+    display: none !important;
 }
 
-legend
+#questionaireContainer .scfSubmitButtonBorder
 {
-    border: none !important;
+    height: 125px !important;
+    width: 960px !important;
+    background-color: #F7F7F7 !important;
+    margin-left: 45px !important; 
+}
+
+#questionaireContainer .scfSubmitButton
+{
+    margin: 40px 0 0 40px;
+    color: transparent;
+    background-image: url("/images/QuestionaireButton.png");
+    border: none;
+    height: 46px;
+    width: 235px;
+}
+
+#questionaireContainer .scfSingleLineTextBox, .scfEmailTextBox
+{
+    display: block;
+    width: 325px !important;
+    height: 40px !important;
+}
+
+#questionaireContainer .scfSingleLineTextLabel, .scfEmailLabel, .scfMultipleLineTextLabel
+{
+    float: none !important;
+}
+
+#questionaireContainer .scfMultipleLineTextBox
+{
+    display: block;
+    width: 750px !important;
 }

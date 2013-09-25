@@ -2,7 +2,7 @@
 version: 1
 id: {2D914B07-978D-4AD0-A74C-ACDB95DF01EB}
 database: master
-path: /sitecore/system/Modules/Web Forms for Marketers/PMoJ/Qustionaire/2 Razao de Quexia/RadioList
+path: /sitecore/system/Modules/Web Forms for Marketers/Website/Qustionaire/2 Razao de Quexia/RadioList
 parent: {A88F1176-FD0F-4959-8263-314A64E33E26}
 name: RadioList
 master: {00000000-0000-0000-0000-000000000000}

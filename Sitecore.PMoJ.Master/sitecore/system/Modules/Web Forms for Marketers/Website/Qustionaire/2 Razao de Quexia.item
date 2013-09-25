@@ -2,7 +2,7 @@
 version: 1
 id: {A88F1176-FD0F-4959-8263-314A64E33E26}
 database: master
-path: /sitecore/system/Modules/Web Forms for Marketers/PMoJ/Qustionaire/2 Razao de Quexia
+path: /sitecore/system/Modules/Web Forms for Marketers/Website/Qustionaire/2 Razao de Quexia
 parent: {A0050ACC-6879-4B3F-B2F5-B05DCE9D4C2C}
 name: 2 Razao de Quexia
 master: {00000000-0000-0000-0000-000000000000}

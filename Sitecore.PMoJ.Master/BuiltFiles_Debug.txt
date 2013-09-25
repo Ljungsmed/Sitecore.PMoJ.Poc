@@ -1,6 +1,8 @@
 .\Debug\css\wffm.css
+.\Debug\images\QuestionaireButton.png
 .\Debug\layouts\PMoJ\Sublayouts\HalloUser.ascx
 .\Debug\layouts\PMoJ\BlankLayout.aspx
+.\Debug\layouts\PMoJ\Sublayouts\QuestionaireContainer.ascx
 .\Debug\bin\Sitecore.Kernel.dll
 .\Debug\bin\Sitecore.PMoJ.Poc.dll
 .\Debug\bin\Sitecore.PMoJ.Poc.pdb

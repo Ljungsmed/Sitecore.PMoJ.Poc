@@ -75,6 +75,13 @@
     <Compile Include="layouts\PMoJ\BlankLayout.aspx.designer.cs">
       <DependentUpon>BlankLayout.aspx</DependentUpon>
     </Compile>
+    <Compile Include="layouts\PMoJ\Sublayouts\QuestionaireContainer.ascx.cs">
+      <DependentUpon>QuestionaireContainer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\PMoJ\Sublayouts\QuestionaireContainer.ascx.designer.cs">
+      <DependentUpon>QuestionaireContainer.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -83,10 +90,12 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="css\wffm.css" />
+    <Content Include="images\QuestionaireButton.png" />
     <Content Include="layouts\PMoJ\Sublayouts\HalloUser.ascx" />
     <Content Include="layouts\PMoJ\BlankLayout.aspx">
       <SubType>ASPXCodeBehind</SubType>
     </Content>
+    <Content Include="layouts\PMoJ\Sublayouts\QuestionaireContainer.ascx" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

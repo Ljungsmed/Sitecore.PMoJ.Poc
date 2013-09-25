@@ -2,7 +2,7 @@
 version: 1
 id: {0D0EF2DA-4812-4F9F-86A2-F69F4E3D6751}
 database: master
-path: /sitecore/system/Modules/Web Forms for Marketers/PMoJ/Qustionaire/3 Descricao/Descrava em detalhe a razao da sua queixa
+path: /sitecore/system/Modules/Web Forms for Marketers/Website/Qustionaire/3 Descricao/Descrava em detalhe a razao da sua queixa
 parent: {164F720E-0433-4B26-9AB3-15E8E48A70AE}
 name: Descrava em detalhe a razao da sua queixa
 master: {00000000-0000-0000-0000-000000000000}
