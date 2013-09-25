@@ -139,6 +139,27 @@
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Sublayouts.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <Icon>/temp/IconCache/Software/16x16/elements_selection.png</Icon>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Sublayouts\PMoJ.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <Icon>?</Icon>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Sublayouts\PMoJ\HalloUser.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <Icon>?</Icon>
+    </SitecoreItem>
     <SitecoreItem Include="sitecore\system.item">
       <Icon>/temp/IconCache/People/16x16/workstation1.png</Icon>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
@@ -170,6 +191,51 @@
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
     <SitecoreItem Include="sitecore\system\Modules\Web Forms for Marketers\PMoJ\LogIn\User Name.item">
+      <Icon>/temp/IconCache/Control/32x32/edit_b_h.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\system\Modules\Web Forms for Marketers\PMoJ\Qustionaire.item">
+      <Icon>/temp/IconCache/Applications/32x32/form_green.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\system\Modules\Web Forms for Marketers\PMoJ\Qustionaire\1 Dados Pessoais.item">
+      <Icon>/temp/IconCache/Applications/32x32/folder2_green.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\system\Modules\Web Forms for Marketers\PMoJ\Qustionaire\1 Dados Pessoais\Email.item">
+      <Icon>/temp/IconCache/Control/32x32/edit_b_h.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\system\Modules\Web Forms for Marketers\PMoJ\Qustionaire\1 Dados Pessoais\Primeiro Nome.item">
+      <Icon>/temp/IconCache/Control/32x32/edit_b_h.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\system\Modules\Web Forms for Marketers\PMoJ\Qustionaire\1 Dados Pessoais\Ultimo Nome.item">
+      <Icon>/temp/IconCache/Control/32x32/edit_b_h.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\system\Modules\Web Forms for Marketers\PMoJ\Qustionaire\2 Razao de Quexia.item">
+      <Icon>/temp/IconCache/Applications/32x32/folder2_green.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\system\Modules\Web Forms for Marketers\PMoJ\Qustionaire\2 Razao de Quexia\RadioList.item">
+      <Icon>/temp/IconCache/Control/32x32/edit_b_h.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\system\Modules\Web Forms for Marketers\PMoJ\Qustionaire\3 Descricao.item">
+      <Icon>/temp/IconCache/Applications/32x32/folder2_green.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\system\Modules\Web Forms for Marketers\PMoJ\Qustionaire\3 Descricao\Descrava em detalhe a razao da sua queixa.item">
       <Icon>/temp/IconCache/Control/32x32/edit_b_h.png</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>

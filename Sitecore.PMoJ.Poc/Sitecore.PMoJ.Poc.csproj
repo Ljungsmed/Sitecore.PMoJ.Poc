@@ -82,6 +82,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="css\wffm.css" />
     <Content Include="layouts\PMoJ\Sublayouts\HalloUser.ascx" />
     <Content Include="layouts\PMoJ\BlankLayout.aspx">
       <SubType>ASPXCodeBehind</SubType>

@@ -1,0 +1,19 @@
+﻿.scfSectionLegend
+{
+    border: none !important;
+}
+
+.scfSectionBorderAsFieldSet
+{
+    border: none !important;
+}
+
+fieldset
+{
+    border: none !important;
+}
+
+legend
+{
+    border: none !important;
+}

@@ -12,6 +12,7 @@
     <meta name="vs_defaultClientScript" content="JavaScript" />
     <meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5" />
     <link href="/default.css" rel="stylesheet" />
+    <link href="/css/wffm.css" rel="stylesheet" />
     <sc:VisitorIdentification runat="server" />
   </head>
   <body>
