@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {4EE9639F-A7F0-420C-A021-B5A8D1F7A6C1}
+database: master
+path: /sitecore/content/Home/Questionaire
+parent: {D9FCB94B-4A6A-403F-A1C0-22DA18349604}
+name: Questionaire
+master: {00000000-0000-0000-0000-000000000000}
+template: {70C0EABF-6183-41A8-AA83-475E0AF4A47B}
+templatekey: Standard Page
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 432
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{44FDE7CE-18FF-493C-858F-BAD896A43A4B}" p:before="r[@uid='{29CDE70F-90AD-4F24-9EF0-F21770DDF781}']" s:id="{467845FA-C99C-40C2-87BE-E0365F238F40}" s:ph="main content" /><r uid="{29CDE70F-90AD-4F24-9EF0-F21770DDF781}" p:before="*[1=2]" s:par="FormID=%7BA0050ACC-6879-4B3F-B2F5-B05DCE9D4C2C%7D&amp;ReadQueryString" s:ph="questionaire" /></d></r>
+----version----
+language: en
+version: 1
+revision: 1e6abb8e-5a0c-4d67-a12f-9dbeb69f0d82
+
+----field----
+field: {56D5A79C-9835-4334-BDDF-53C3CB583E72}
+name: Title
+key: title
+content-length: 8
+
+Register
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130923T214606
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1e6abb8e-5a0c-4d67-a12f-9dbeb69f0d82
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130925T131945:635157119856706812
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
