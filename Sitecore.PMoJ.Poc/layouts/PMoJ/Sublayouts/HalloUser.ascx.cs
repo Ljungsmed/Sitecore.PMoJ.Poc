@@ -1,9 +1,8 @@
 ﻿using Sitecore.Links;
+using System;
 
-namespace Sitecore.PMoJ.Poc
+namespace Sitecore.PMoJ.Poc.layouts.PMoJ.Sublayouts
 {
-    using System;
-
     public partial class HalloUser : System.Web.UI.UserControl
     {
         private void Page_Load(object sender, EventArgs e)

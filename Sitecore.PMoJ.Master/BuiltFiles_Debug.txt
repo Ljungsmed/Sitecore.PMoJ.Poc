@@ -1,4 +1,4 @@
-.\Debug\HalloUser.ascx
+.\Debug\layouts\PMoJ\Sublayouts\HalloUser.ascx
 .\Debug\layouts\PMoJ\BlankLayout.aspx
 .\Debug\bin\Sitecore.Kernel.dll
 .\Debug\bin\Sitecore.PMoJ.Poc.dll

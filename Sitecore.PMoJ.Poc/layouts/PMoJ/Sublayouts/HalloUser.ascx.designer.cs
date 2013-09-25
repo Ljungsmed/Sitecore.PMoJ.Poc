@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Sitecore.PMoJ.Poc {
+namespace Sitecore.PMoJ.Poc.layouts.PMoJ.Sublayouts {
     
     
     public partial class HalloUser {
