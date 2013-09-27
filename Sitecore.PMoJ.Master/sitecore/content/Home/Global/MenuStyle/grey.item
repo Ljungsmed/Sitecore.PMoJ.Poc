@@ -1,0 +1,23 @@
+----item----
+version: 1
+id: {5C735064-65B2-464F-AE51-6CB030A73119}
+database: master
+path: /sitecore/content/Home/Global/MenuStyle/grey
+parent: {A8582C25-6710-4CFA-A271-5E483B4D1DA6}
+name: grey
+master: {00000000-0000-0000-0000-000000000000}
+template: {DF9CD0CA-7D28-4341-90BF-FB42494F87D0}
+templatekey: StandardTitle
+
+----version----
+language: en
+version: 1
+revision: 2d634f4b-69a6-4c11-9b5a-93a81c90f255
+
+----field----
+field: {56D5A79C-9835-4334-BDDF-53C3CB583E72}
+name: Title
+key: title
+content-length: 4
+
+grey

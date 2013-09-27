@@ -1,0 +1,23 @@
+----item----
+version: 1
+id: {0A88A588-7CBE-49A2-A79E-B72B34EF1787}
+database: master
+path: /sitecore/content/Home/Global/MenuStyle/green
+parent: {A8582C25-6710-4CFA-A271-5E483B4D1DA6}
+name: green
+master: {00000000-0000-0000-0000-000000000000}
+template: {DF9CD0CA-7D28-4341-90BF-FB42494F87D0}
+templatekey: StandardTitle
+
+----version----
+language: en
+version: 1
+revision: fad776ee-b0c6-4e2e-85c0-acf3439991aa
+
+----field----
+field: {56D5A79C-9835-4334-BDDF-53C3CB583E72}
+name: Title
+key: title
+content-length: 5
+
+green

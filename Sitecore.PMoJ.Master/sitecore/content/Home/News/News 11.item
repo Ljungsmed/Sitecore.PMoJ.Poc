@@ -19,15 +19,8 @@ content-length: 4
 ----version----
 language: en
 version: 1
-revision: 88592948-f39f-4227-ab62-e19d4cc06912
+revision: 480fbbdb-17a6-47cb-90b3-9b63fd6eff77
 
-----field----
-field: {56D5A79C-9835-4334-BDDF-53C3CB583E72}
-name: Title
-key: title
-content-length: 7
-
-News 11
 ----field----
 field: {C6A33A13-22B6-4097-B110-3667F199E081}
 name: News Heading
@@ -55,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-88592948-f39f-4227-ab62-e19d4cc06912
+480fbbdb-17a6-47cb-90b3-9b63fd6eff77
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130925T130855:635157113354331952
+20130926T140233:635158009530053600
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -70,10 +63,3 @@ key: __updated by
 content-length: 14
 
 sitecore\admin
-----field----
-field: {A14F1B0C-4384-49EC-8790-28A440F3670C}
-name: __Semantics
-key: __semantics
-content-length: 77
-
-{4C8C6F41-E272-4FB0-863A-EC3EE591C1A2}|{F8781D84-CA36-4033-BD6B-C6705B59D92E}

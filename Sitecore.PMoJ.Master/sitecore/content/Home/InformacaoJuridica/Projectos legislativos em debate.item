@@ -1,47 +1,54 @@
 ----item----
 version: 1
-id: {D9FCB94B-4A6A-403F-A1C0-22DA18349604}
+id: {AD8FA725-E8B1-49DB-BBAF-D7D7DBC8F41F}
 database: master
-path: /sitecore/content/Home
-parent: {0DE95AE4-41AB-4D01-9EB0-67441B7C2450}
-name: Home
+path: /sitecore/content/Home/InformacaoJuridica/Projectos legislativos em debate
+parent: {9447F447-228E-4BD1-AFAA-D748E2FD057E}
+name: Projectos legislativos em debate
 master: {00000000-0000-0000-0000-000000000000}
-template: {BEA9E3E4-AFC0-4C57-B718-54C0F4125F95}
-templatekey: FrontPage
+template: {70C0EABF-6183-41A8-AA83-475E0AF4A47B}
+templatekey: Standard Page
 
 ----version----
 language: en
 version: 1
-revision: 9bc56b73-e8f9-4186-ad9e-db12f1cc2ca2
+revision: 0e11cb5a-b1e3-4f68-abf8-78564bc1d2c6
 
 ----field----
 field: {56D5A79C-9835-4334-BDDF-53C3CB583E72}
 name: Title
 key: title
-content-length: 4
+content-length: 32
 
-Home
+Projectos legislativos em debate
+----field----
+field: {AB77DC44-B1BC-43A8-B6CF-80696082D4AF}
+name: MenuID
+key: menuid
+content-length: 3
+
+Li5
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 15
 
-20130923T214545
+20130927T110817
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-9bc56b73-e8f9-4186-ad9e-db12f1cc2ca2
+0e11cb5a-b1e3-4f68-abf8-78564bc1d2c6
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130927T131513:635158845131855572
+20130927T110855:635158769350263261
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -1,0 +1,23 @@
+----item----
+version: 1
+id: {DD63B11E-7FA6-4B6C-9F59-12674673298E}
+database: master
+path: /sitecore/content/Home/Global/MenuStyle/pink
+parent: {A8582C25-6710-4CFA-A271-5E483B4D1DA6}
+name: pink
+master: {00000000-0000-0000-0000-000000000000}
+template: {DF9CD0CA-7D28-4341-90BF-FB42494F87D0}
+templatekey: StandardTitle
+
+----version----
+language: en
+version: 1
+revision: 4bae86d1-af04-488f-8796-0644c886cfbf
+
+----field----
+field: {56D5A79C-9835-4334-BDDF-53C3CB583E72}
+name: Title
+key: title
+content-length: 4
+
+pink
