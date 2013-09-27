@@ -29,5 +29,14 @@ namespace Sitecore.PMoJ.Poc.layouts.PMoJ.Sublayouts {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Repeater rpFacets;
+        
+        /// <summary>
+        /// rpLatestNews control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Repeater rpLatestNews;
     }
 }

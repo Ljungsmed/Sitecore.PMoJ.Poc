@@ -1,6 +1,8 @@
 ﻿using System.Web.UI.WebControls;
 using Sitecore.Data;
+using Sitecore.Data.Items;
 using Sitecore.Links;
+using Sitecore.PMoJ.Poc.SearchUtils;
 
 namespace Sitecore.PMoJ.Poc.layouts.PMoJ.Sublayouts
 {
@@ -22,7 +24,14 @@ namespace Sitecore.PMoJ.Poc.layouts.PMoJ.Sublayouts
             _selectedFacets = Request.QueryString["facets"] ?? string.Empty;
 
             Search();
-            // Put user code to initialize the page here
+
+            //do search
+
+            //* Get latest news articles
+            NewsSearcher newsSearcher = new NewsSearcher();
+         
+            rpLatestNews.DataSource = newsSearcher.GetLatestNews(4);
+            rpLatestNews.DataBind();
         }
 
 
@@ -61,8 +70,9 @@ namespace Sitecore.PMoJ.Poc.layouts.PMoJ.Sublayouts
 
 
 
-                var query = context.GetQueryable<SearchResultItem>().Where(predicate).Where(p => p.Path.StartsWith("/sitecore/content/Home/News"));
+                var query = context.GetQueryable<SearchResultItem>().Where(predicate).Where(p => p.Path.StartsWith("/sitecore/content/Home/PublicacoesEditais/News"));
                 var results = query.GetResults();
+                
 
 
                 var totalResults = results.TotalSearchResults;
@@ -194,6 +204,19 @@ namespace Sitecore.PMoJ.Poc.layouts.PMoJ.Sublayouts
         }
 
 
+        protected void rpLatestNews_OnItemDataBound(object sender, RepeaterItemEventArgs e)
+        {
+            if (e.Item.ItemType == ListItemType.Item || e.Item.ItemType == ListItemType.AlternatingItem)
+            {
+                OrderBySearchResultItem searchItem = (OrderBySearchResultItem)e.Item.DataItem;
 
+                Item item = searchItem.GetItem();
+
+                HyperLink link = (HyperLink)e.Item.FindControl("link");
+
+                link.NavigateUrl = LinkManager.GetItemUrl(item);
+                link.Text = item["News heading"];
+            }
+        }
     }
 }

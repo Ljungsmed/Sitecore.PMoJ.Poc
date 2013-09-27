@@ -54,70 +54,234 @@
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\content\Home\News.item">
+    <SitecoreItem Include="sitecore\content\Home\Ajustica.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <Icon>/temp/IconCache/People/16x16/cubes.png</Icon>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Ajustica\Meios de Resolucao Alternativa de Litigios.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <Icon>/temp/IconCache/Applications/16x16/document.png</Icon>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Ajustica\Ministerio Publico.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <Icon>/temp/IconCache/Applications/16x16/document.png</Icon>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Ajustica\Tribunais.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <Icon>/temp/IconCache/Applications/16x16/document.png</Icon>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Entidades.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <Icon>/temp/IconCache/People/16x16/cubes.png</Icon>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Entidades\Direcao-Geral da Politica de Justica.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <Icon>?</Icon>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Entidades\Inspecao-Geral dos Servicos de Justica.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <Icon>?</Icon>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Entidades\Secretaria-Geral do Ministerio da Justica.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <Icon>?</Icon>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Global.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <Icon>/temp/IconCache/Applications/16x16/folder.png</Icon>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\content\Home\News\Michael Jordan.item">
-      <Icon>/temp/IconCache/People/16x16/cubes.png</Icon>
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+    <SitecoreItem Include="sitecore\content\Home\Global\MenuStyle.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <Icon>/temp/IconCache/Applications/16x16/folder.png</Icon>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\content\Home\News\News 10.item">
-      <Icon>/temp/IconCache/People/16x16/cubes.png</Icon>
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+    <SitecoreItem Include="sitecore\content\Home\Global\MenuStyle\green.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <Icon>?</Icon>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\content\Home\News\News 11.item">
-      <Icon>/temp/IconCache/People/16x16/cubes.png</Icon>
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+    <SitecoreItem Include="sitecore\content\Home\Global\MenuStyle\grey.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <Icon>?</Icon>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\content\Home\News\News 2.item">
-      <Icon>/temp/IconCache/People/16x16/cubes.png</Icon>
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+    <SitecoreItem Include="sitecore\content\Home\Global\MenuStyle\orange.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <Icon>?</Icon>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\content\Home\News\News 3.item">
-      <Icon>/temp/IconCache/People/16x16/cubes.png</Icon>
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+    <SitecoreItem Include="sitecore\content\Home\Global\MenuStyle\pink.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <Icon>?</Icon>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\content\Home\News\News 4.item">
-      <Icon>/temp/IconCache/People/16x16/cubes.png</Icon>
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+    <SitecoreItem Include="sitecore\content\Home\Global\MenuStyle\red.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <Icon>?</Icon>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\content\Home\News\News 5.item">
-      <Icon>/temp/IconCache/People/16x16/cubes.png</Icon>
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+    <SitecoreItem Include="sitecore\content\Home\Global\MenuStyle\yellow.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <Icon>?</Icon>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\content\Home\News\News 6.item">
-      <Icon>/temp/IconCache/People/16x16/cubes.png</Icon>
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+    <SitecoreItem Include="sitecore\content\Home\InformacaoJuridica.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <Icon>/temp/IconCache/People/16x16/cubes.png</Icon>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\content\Home\News\News 7.item">
-      <Icon>/temp/IconCache/People/16x16/cubes.png</Icon>
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+    <SitecoreItem Include="sitecore\content\Home\InformacaoJuridica\Projectos legislativos em debate.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <Icon>/temp/IconCache/Applications/16x16/document.png</Icon>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\content\Home\News\News 8.item">
-      <Icon>/temp/IconCache/People/16x16/cubes.png</Icon>
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+    <SitecoreItem Include="sitecore\content\Home\JusticaEmNumeros.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\content\Home\News\News 9.item">
       <Icon>/temp/IconCache/People/16x16/cubes.png</Icon>
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
     <SitecoreItem Include="sitecore\content\Home\Portugal Wins the World Cup.item">
       <Icon>/temp/IconCache/Applications/16x16/document.png</Icon>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\PublicacoesEditais.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <Icon>/temp/IconCache/People/16x16/cubes.png</Icon>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\PublicacoesEditais\News.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <Icon>/temp/IconCache/Applications/16x16/folder.png</Icon>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\PublicacoesEditais\News\News 1.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <Icon>/temp/IconCache/Applications/16x16/edit.png</Icon>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\PublicacoesEditais\News\News 10.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <Icon>/temp/IconCache/Applications/16x16/edit.png</Icon>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\PublicacoesEditais\News\News 11.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <Icon>/temp/IconCache/Applications/16x16/edit.png</Icon>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\PublicacoesEditais\News\News 2.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <Icon>/temp/IconCache/Applications/16x16/edit.png</Icon>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\PublicacoesEditais\News\News 3.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <Icon>/temp/IconCache/Applications/16x16/edit.png</Icon>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\PublicacoesEditais\News\News 4.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <Icon>/temp/IconCache/Applications/16x16/edit.png</Icon>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\PublicacoesEditais\News\News 5.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <Icon>/temp/IconCache/Applications/16x16/edit.png</Icon>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\PublicacoesEditais\News\News 6.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <Icon>/temp/IconCache/Applications/16x16/edit.png</Icon>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\PublicacoesEditais\News\News 7.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <Icon>/temp/IconCache/Applications/16x16/edit.png</Icon>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\PublicacoesEditais\News\News 8.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <Icon>/temp/IconCache/Applications/16x16/edit.png</Icon>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\PublicacoesEditais\News\News 9.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <Icon>/temp/IconCache/Applications/16x16/edit.png</Icon>
     </SitecoreItem>
     <SitecoreItem Include="sitecore\content\Home\Questionaire.item">
       <Icon>/temp/IconCache/Applications/16x16/document.png</Icon>
@@ -128,6 +292,34 @@
       <Icon>/temp/IconCache/Applications/16x16/document.png</Icon>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Search.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <Icon>/temp/IconCache/People/16x16/monitor.png</Icon>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Servicos.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <Icon>/temp/IconCache/People/16x16/cubes.png</Icon>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Servicos\Como fazer.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <Icon>?</Icon>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\testlogin.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ExcludeItemFrom>
+      </ExcludeItemFrom>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <Icon>/temp/IconCache/Applications/16x16/document.png</Icon>
     </SitecoreItem>
     <SitecoreItem Include="sitecore\layout.item">
       <Icon>/temp/IconCache/Applications/16x16/windows.png</Icon>
@@ -410,7 +602,11 @@
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-
+    <SitecoreItem Include="sitecore\templates\User Defined\PMoJ\News\News\news Image.item">
+      <Icon>/temp/IconCache/Applications/32x32/Document.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
     <SitecoreItem Include="sitecore\templates\User Defined\PMoJ\Search.item">
       <Icon>/temp/IconCache/People/16x16/monitor.png</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
@@ -418,11 +614,7 @@
     </SitecoreItem>
     <SitecoreItem Include="sitecore\templates\User Defined\PMoJ\Search\__Standard Values.item">
       <Icon>/temp/IconCache/People/16x16/monitor.png</Icon>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\User Defined\PMoJ\News\News\news Image.item">
-      <Icon>/temp/IconCache/Applications/32x32/Document.png</Icon>
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
     <SitecoreItem Include="sitecore\templates\User Defined\PMoJ\Section.item">
       <Icon>/temp/IconCache/People/16x16/cubes.png</Icon>

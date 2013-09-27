@@ -155,6 +155,7 @@
       <DependentUpon>TopMenu.ascx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchUtils\NewsSearcher.cs" />
     <Compile Include="SearchUtils\OrderBySearchResultItem.cs" />
   </ItemGroup>
   <ItemGroup>
