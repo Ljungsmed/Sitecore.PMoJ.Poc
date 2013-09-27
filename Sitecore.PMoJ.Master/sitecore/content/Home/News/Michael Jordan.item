@@ -29,13 +29,6 @@ version: 1
 revision: 3c613ce3-1dd6-4cde-b2b6-332fc9924d26
 
 ----field----
-field: {56D5A79C-9835-4334-BDDF-53C3CB583E72}
-name: Title
-key: title
-content-length: 14
-
-Michael Jordan
-----field----
 field: {C6A33A13-22B6-4097-B110-3667F199E081}
 name: News Heading
 key: news heading
