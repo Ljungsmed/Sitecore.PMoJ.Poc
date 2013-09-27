@@ -1,0 +1,82 @@
+----item----
+version: 1
+id: {1E031B96-56C6-44CA-85F1-669ED2B1127D}
+database: master
+path: /sitecore/content/Home/News/News 1
+parent: {60A124F1-70C8-4B29-9242-109201796D34}
+name: News 1
+master: {00000000-0000-0000-0000-000000000000}
+template: {509C5EF6-0795-4F2B-9E4D-F54330BC1831}
+templatekey: News
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+100
+----version----
+language: en
+version: 1
+revision: 08b3e993-813e-49ab-b81d-bce7313f210f
+
+----field----
+field: {C6A33A13-22B6-4097-B110-3667F199E081}
+name: News Heading
+key: news heading
+content-length: 97
+
+Ministra vai pedir urgência para proteção de agentes de execução e administradores de insolvência
+----field----
+field: {E3B39841-EDB6-444B-8F5C-148584204E73}
+name: News Content
+key: news content
+content-length: 956
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. <br />
+<br />
+Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.<br />
+Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus,
+----field----
+field: {94FB6C97-135F-44BA-9B71-640348058CBC}
+name: News Abstract
+key: news abstract
+content-length: 299
+
+Bansky hoodie selvage, +1 wayfarers Brooklyn gentrify synth umami distillery semiotics ethical. You probably haven't heard of them Tonx Helvetica, pug disrupt Truffaut jean shorts 3 wolf moon keffiyeh fashin axe. Neutra chillwave small batch, keytar bespoke literally gentrify Schlitz synth artisan.
+----field----
+field: {0E447BCE-859E-4AE5-8270-AD6394A52694}
+name: news Image
+key: news image
+content-length: 173
+
+<image mediaid="{867A4A45-6FB1-4A57-8C7C-C2FCA8106538}" mediapath="/Images/PMoJ/News Images/b2_noticias_ImagemLateral" src="~/media/867A4A456FB14A578C7CC2FCA8106538.ashx" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130924T132407
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+08b3e993-813e-49ab-b81d-bce7313f210f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130926T142537:635158023376433659
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

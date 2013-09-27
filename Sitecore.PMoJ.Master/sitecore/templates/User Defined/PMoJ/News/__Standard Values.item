@@ -9,10 +9,17 @@ master: {00000000-0000-0000-0000-000000000000}
 template: {509C5EF6-0795-4F2B-9E4D-F54330BC1831}
 templatekey: News
 
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 367
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{FAB3E337-2642-4F2A-90EE-DDD909CF1E3D}"><r id="{7AEA2885-B97E-4237-8882-38D457783357}" ph="top area" uid="{1668A5F2-808A-4221-9D3A-7DFC351E4D3B}" /><r id="{1FF9BCD2-6662-4ED8-8510-C7EBBE6F31CF}" ph="main content" uid="{E0D8A239-FC20-4EB9-BDF1-A9379838477C}" /></d></r>
 ----version----
 language: en
 version: 1
-revision: ec01941f-b728-49ce-a6b9-f28d403db456
+revision: cfea1839-99ef-4e3d-b991-7f6f13c46a83
 
 ----field----
 field: {C6A33A13-22B6-4097-B110-3667F199E081}
@@ -48,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ec01941f-b728-49ce-a6b9-f28d403db456
+cfea1839-99ef-4e3d-b991-7f6f13c46a83
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130924T132311:635156257917526913
+20130926T204309:635158249895025009
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
