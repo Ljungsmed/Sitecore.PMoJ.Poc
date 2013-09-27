@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {9823737C-358B-47A4-BED8-3E70EC22C070}
+id: {DCA7E725-2F6A-4FC6-AF6F-00F1EA79635B}
 database: master
-path: /sitecore/content/Home/News/News 7
+path: /sitecore/content/Home/PublicacoesEditais/News/News 4
 parent: {60A124F1-70C8-4B29-9242-109201796D34}
-name: News 7
+name: News 4
 master: {00000000-0000-0000-0000-000000000000}
 template: {509C5EF6-0795-4F2B-9E4D-F54330BC1831}
 templatekey: News
@@ -15,11 +15,11 @@ name: __Sortorder
 key: __sortorder
 content-length: 3
 
-900
+600
 ----version----
 language: en
 version: 1
-revision: 89feb76d-bfb6-4784-aed3-a6cafcc0722b
+revision: b93a85ac-3b24-4f40-9571-d014c3ada838
 
 ----field----
 field: {C6A33A13-22B6-4097-B110-3667F199E081}
@@ -27,35 +27,35 @@ name: News Heading
 key: news heading
 content-length: 6
 
-News 7
+News 4
 ----field----
 field: {E3B39841-EDB6-444B-8F5C-148584204E73}
 name: News Content
 key: news content
 content-length: 39
 
-Default text about the article 'News 7'
+Default text about the article 'News 4'
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 15
 
-20130924T132408
+20130924T132407
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-89feb76d-bfb6-4784-aed3-a6cafcc0722b
+b93a85ac-3b24-4f40-9571-d014c3ada838
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130926T140233:635158009533113600
+20130926T140233:635158009530943600
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -2,8 +2,8 @@
 version: 1
 id: {60A124F1-70C8-4B29-9242-109201796D34}
 database: master
-path: /sitecore/content/Home/News
-parent: {D9FCB94B-4A6A-403F-A1C0-22DA18349604}
+path: /sitecore/content/Home/PublicacoesEditais/News
+parent: {A5F56A27-B244-4E16-AE44-1F08BD781FA3}
 name: News
 master: {00000000-0000-0000-0000-000000000000}
 template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
@@ -33,7 +33,7 @@ content-length: 38
 ----version----
 language: en
 version: 1
-revision: 5cc07ab2-e4bd-4b2a-8956-b065a6816298
+revision: b82ede1e-ef7e-442f-833b-9c7c49bf5ccd
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-5cc07ab2-e4bd-4b2a-8956-b065a6816298
+b82ede1e-ef7e-442f-833b-9c7c49bf5ccd
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130926T143328:635158028080336566
+20130927T132423:635158850635427624
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

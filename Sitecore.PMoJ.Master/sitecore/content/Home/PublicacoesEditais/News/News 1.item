@@ -2,7 +2,7 @@
 version: 1
 id: {1E031B96-56C6-44CA-85F1-669ED2B1127D}
 database: master
-path: /sitecore/content/Home/News/News 1
+path: /sitecore/content/Home/PublicacoesEditais/News/News 1
 parent: {60A124F1-70C8-4B29-9242-109201796D34}
 name: News 1
 master: {00000000-0000-0000-0000-000000000000}
