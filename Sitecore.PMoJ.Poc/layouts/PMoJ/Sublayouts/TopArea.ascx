@@ -12,6 +12,6 @@
         <img src="/images/d1_sub-area_imagembotao.jpg" alt="" width="40px" />
     </div>
     <div style="width: 200px; float: left; margin-top: 15px; float: right">
-        <login><a href="#">Login</a> ou <a href="#">Registo</a></login>
+        <sc:Sublayout ID="Sublayout1" runat="server" Path="/layouts/PMoJ/Sublayouts/HalloUser.ascx" />
     </div>
 </div>
