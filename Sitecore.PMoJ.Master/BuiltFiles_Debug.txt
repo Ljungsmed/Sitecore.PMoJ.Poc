@@ -1,3 +1,4 @@
+.\Debug\App_Config\Include\Sitecore.ContentSearch.Lucene.DefaultIndexConfiguration.config
 .\Debug\css\home.css
 .\Debug\css\menu.css
 .\Debug\css\menu_dark.css
@@ -62,10 +63,12 @@
 .\Debug\layouts\PMoJ\MainLayout.aspx
 .\Debug\layouts\PMoJ\Sublayouts\HalloUser.ascx
 .\Debug\layouts\PMoJ\BlankLayout.aspx
+.\Debug\layouts\PMoJ\Sublayouts\HomeDisplay.ascx
 .\Debug\layouts\PMoJ\Sublayouts\NewsDisplay.ascx
 .\Debug\layouts\PMoJ\Sublayouts\QuestionaireContainer.ascx
 .\Debug\layouts\PMoJ\Sublayouts\TestCitizenLogin.ascx
 .\Debug\layouts\PMoJ\Sublayouts\TopArea.ascx
+.\Debug\layouts\PMoJ\Sublayouts\TopAreaHome.ascx
 .\Debug\layouts\PMoJ\Sublayouts\TopMenu.ascx
 .\Debug\Library\Sitecore.ContentSearch.dll
 .\Debug\Library\Sitecore.ContentSearch.Linq.dll

@@ -6,19 +6,24 @@
     </HeaderTemplate>
     <ItemTemplate>        		
 			<li class="<%#: Item["menu style"] %>">
-                <a href="#"><%#: Item["title"] %></a>
+                <a href="#">
+                    <%#: Item["title"] %>
+                </a>
                 <asp:Repeater ID="RepeaterSubMenu" runat="server" ItemType="Sitecore.Data.Items.Item" >
                     <HeaderTemplate>
-                        <%--<ul class="<%#: Item.Parent["menu style"] %>">--%>
-                        <ul class="red">
+                        <ul class="<%# (((RepeaterItem)Container.Parent.Parent).DataItem as Sitecore.Data.Items.Item)["menu style"]  %>">
                     </HeaderTemplate>
 				    <ItemTemplate>
-					    <li id="menu-item-1"><a href="#">Secretária-Geral do Ministério da Justiça</a></li>
+					    <li id="<%#: Item["menuid"] %>">
+                            <a href="#">
+                                <%#: Item["title"] %>
+                            </a>
+					    </li>
 				    </ItemTemplate>
                     <FooterTemplate>
                         </ul>
                     </FooterTemplate>
-                    </asp:Repeater>
+                </asp:Repeater>
 			</li>
     </ItemTemplate>
     <FooterTemplate>

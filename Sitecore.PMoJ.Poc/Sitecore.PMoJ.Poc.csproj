@@ -91,6 +91,13 @@
     <Compile Include="layouts\PMoJ\BlankLayout.aspx.designer.cs">
       <DependentUpon>BlankLayout.aspx</DependentUpon>
     </Compile>
+    <Compile Include="layouts\PMoJ\Sublayouts\HomeDisplay.ascx.cs">
+      <DependentUpon>HomeDisplay.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\PMoJ\Sublayouts\HomeDisplay.ascx.designer.cs">
+      <DependentUpon>HomeDisplay.ascx</DependentUpon>
+    </Compile>
     <Compile Include="layouts\PMoJ\Sublayouts\NewsDisplay.ascx.cs">
       <DependentUpon>NewsDisplay.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -119,6 +126,13 @@
     <Compile Include="layouts\PMoJ\Sublayouts\TopArea.ascx.designer.cs">
       <DependentUpon>TopArea.ascx</DependentUpon>
     </Compile>
+    <Compile Include="layouts\PMoJ\Sublayouts\TopAreaHome.ascx.cs">
+      <DependentUpon>TopAreaHome.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\PMoJ\Sublayouts\TopAreaHome.ascx.designer.cs">
+      <DependentUpon>TopAreaHome.ascx</DependentUpon>
+    </Compile>
     <Compile Include="layouts\PMoJ\Sublayouts\TopMenu.ascx.cs">
       <DependentUpon>TopMenu.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -130,6 +144,7 @@
     <Compile Include="SearchUtils\OrderBySearchResultItem.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Config\Include\Sitecore.ContentSearch.Lucene.DefaultIndexConfiguration.config" />
     <None Include="Properties\PublishProfiles\PMoJ.pubxml" />
   </ItemGroup>
   <ItemGroup />
@@ -202,10 +217,12 @@
     <Content Include="layouts\PMoJ\BlankLayout.aspx">
       <SubType>ASPXCodeBehind</SubType>
     </Content>
+    <Content Include="layouts\PMoJ\Sublayouts\HomeDisplay.ascx" />
     <Content Include="layouts\PMoJ\Sublayouts\NewsDisplay.ascx" />
     <Content Include="layouts\PMoJ\Sublayouts\QuestionaireContainer.ascx" />
     <Content Include="layouts\PMoJ\Sublayouts\TestCitizenLogin.ascx" />
     <Content Include="layouts\PMoJ\Sublayouts\TopArea.ascx" />
+    <Content Include="layouts\PMoJ\Sublayouts\TopAreaHome.ascx" />
     <Content Include="layouts\PMoJ\Sublayouts\TopMenu.ascx" />
     <Content Include="Library\Sitecore.ContentSearch.dll" />
     <Content Include="Library\Sitecore.ContentSearch.Linq.dll" />
