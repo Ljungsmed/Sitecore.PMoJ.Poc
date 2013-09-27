@@ -1,0 +1,81 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Lato);
+
+ body {
+    width:960px;
+    font-family:"Lato", Calibri,Arial;
+    font-size: 13px;            
+}
+
+.welcome {
+    font-family:Lato, Calibri,Arial;
+    font-weight:900;
+    font-size:40px;
+    color:#fff;
+    text-align:center;    
+    background-color:#2391dc;
+    height:230px;          
+}
+.desc {
+    font-weight:400;
+    font-size:14px;
+    position:relative;
+    padding:0px;
+    top: -9px;
+    left: 1px;
+}
+topSearch {
+    font-weight:400;
+    font-size:14px;
+    font-style:italic;
+    color:#fff;    
+    position:relative;
+    padding-left:2px;
+    padding-top:5px;
+    
+    
+}
+topSearch a:hover{ font-family:lato; font-size:14px; color:black}
+topSearch a{ font-family:lato; font-size:14px; color:white; padding-left:5px;}	
+
+subtitulo2{font-weight:10; font-family:lato; font-size:22px; line-height:35px;}
+titulo2 {font-weight:700; font-family:lato; font-size:34px; line-height:33px}
+body2 {font-weight:400; font-family:lato; font-size:16px; line-height:25px; align:left;}
+
+#search:focus { font-family:lato; font-size:15px; align:left;}
+login{ font-family:lato; font-size:14px; color:white}
+login a:hover{ font-family:lato; font-size:14px; color:#07aaff}
+login a{ font-family:lato; font-size:14px; color:white}	
+menubothead {font-family:lato; font-size:15px; color:white; font-weight:700}
+menubot a {font-family:lato; font-size:13px; color:white; font-weight:400; text-decoration:underline; opacity:0.7; line-height:15px;}
+menubot a:hover {font-family:lato; font-size:13px; color:white; font-weight:400; text-decoration:none;opacity:1;line-height:15px;}
+
+newsDate { font-family:lato; font-weight:400; font-size:12px; line-height:20px; align:left; color:#2391dc; margin-left:0px;}
+newsTitle { font-family:lato; font-weight:700; font-size:18px; line-height:20px; align:left; color:#2391dc;margin-left:0px;}
+        
+imagecaption { font-family:lato; font-size:10px; line-height:20px; align:left;}
+.dcjq-mega-menu ul.menu {
+    font-family:lato; 
+    font-weight:700;
+}
+/* Demo Styles */
+.wrap {width: 960px; margin: 0 auto;}
+.auto-style3 {
+    vertical-align: top;
+    width: 152px;
+    height: 125px;
+}
+.auto-style4 {
+    vertical-align: top;
+    width: 316px;
+    height: 125px;
+}
+.auto-style5 {
+    vertical-align: top;
+    width: 152px;
+    height: 130px;
+}
+.auto-style6 {
+    vertical-align: top;
+    width: 316px;
+    height: 130px;
+}

@@ -1,0 +1,200 @@
+/* Reset code to remove theme inherent styling */
+.dcjq-mega-menu ul.menu ul, .dcjq-mega-menu ul.menu li {
+list-style: none; 
+padding: 0; 
+margin: 0;
+}
+.dcjq-mega-menu ul.menu ul {
+display: none; /* Hides non-mega links */
+}
+.dcjq-mega-menu ul.menu .sub ul {
+display: block; /* overrides above hide */
+}
+
+.dcjq-mega-div {
+display: none;  
+}
+.dcjq-mega-div-hover {
+display: block;  
+}
+
+/* Main menu styles */
+.dcjq-mega-menu ul.menu {
+background: #222 url(/images/bg_white_dark.png) repeat-x 0 -150px; 
+width: 100%; 
+height: 75px; 
+position: relative; /* Important - required for positioning of mega menu */
+font-size: 14px;
+line-height: 16px;
+padding: 0;
+margin-top: 0;
+text-transform: uppercase;
+}
+
+.dcjq-mega-menu ul.menu li {
+float: left;
+}
+.dcjq-mega-menu ul.menu li.red a {
+float: left; 
+display: block;
+padding: 29.5px 12px; 
+background: url(/images/bg_red_dark.png) repeat-x 100% 0; 
+color: #fff;
+text-decoration: none;
+font-size: 14px;
+}
+.dcjq-mega-menu ul.menu li.yellow a {
+float: left; 
+display: block;  
+padding: 29.5px 12px; 
+background: url(/images/bg_yellow_dark.png) repeat-x 100% 0; 
+color: #fff;
+text-decoration: none;
+font-size: 14px;
+}
+.dcjq-mega-menu ul.menu li.green a {
+float: left; 
+display: block;  
+padding: 29.5px 12px; 
+background: url(/images/bg_green_dark.png) repeat-x 100% 0; 
+color: #fff;
+text-decoration: none;
+font-size: 14px;
+}
+.dcjq-mega-menu ul.menu li.orange a {
+float: left; 
+display: block;  
+padding: 29.5px 12px;  
+background: url(/images/bg_orange_dark.png) repeat-x 100% 0; 
+color: #fff;
+text-decoration: none;
+font-size: 14px;
+}
+.dcjq-mega-menu ul.menu li.grey a {
+float: left; 
+display: block;  
+padding: 29.5px 12px; 
+background: url(/images/bg_grey_dark.png) repeat-x 100% 0; 
+color: #fff;
+text-decoration: none;
+font-size: 14px;
+}
+.dcjq-mega-menu ul.menu li.pink a {
+float: left; 
+display: block;  
+padding: 29.5px 12px; 
+background: url(/images/bg_pink_dark.png) repeat-x 100% 0; 
+color: #fff;
+text-decoration: none;
+font-size: 14px;
+}
+
+.dcjq-mega-menu ul.menu li.red ul.red {
+background-color: #D24647;
+margin-left: -7px;
+}
+.dcjq-mega-menu ul.menu li.yellow ul.yellow {
+background-color: #FFD952;
+margin-left: -7px;
+}
+.dcjq-mega-menu ul.menu li.green ul.green {
+background-color: #1CB596;
+margin-left: -7px;
+}
+.dcjq-mega-menu ul.menu li.orange ul.orange {
+background-color: #F8A44C;
+margin-left: -7px;
+}
+.dcjq-mega-menu ul.menu li.grey ul.grey {
+background-color: #666666;
+margin-left: -7px;
+}
+.dcjq-mega-menu ul.menu li.pink ul.pink {
+background-color: #CC6EE8;
+margin-left: -7px;
+}
+
+.dcjq-mega-menu ul.menu li.mega-hover a, .dcjq-mega-menu ul.menu li a:hover {
+background-position: 100% -75px; 
+color: #fff; 
+text-shadow: none;
+}
+
+/* Arrow tag for parent links */
+.dcjq-mega-menu ul.menu li a.dc-mega {
+padding-right: 25px; /* Additional padding for arrow */
+padding-left: 15px;
+position: relative; /* Required for arrow positioning */
+}
+.dcjq-mega-menu ul.menu li a .dc-mega-icon {
+display: block; 
+position: absolute; 
+top: 35px; 
+right: 10px; 
+width: 8px; 
+height: 6px; 
+background: url(/images/arrow_dark.png) no-repeat 0 0;
+}
+.dcjq-mega-menu ul.menu li.mega-hover a .dc-mega-icon {
+background-position: 0 100%;
+}
+
+/* Mega Menu Styling */
+/* Mega Drop Down Container */
+.dcjq-mega-menu ul.menu li .sub-container {
+position: absolute; /* Required */
+padding-left: 10px; 
+margin-left: -3px;
+}
+.dcjq-mega-menu ul.menu li .sub {
+padding: 20px 20px 20px 10px;
+}
+
+.dcjq-mega-menu ul.menu li .sub-container.mega .sub {
+padding: 20px 20px 20px 20px;
+}
+.dcjq-mega-menu ul.menu li .sub .row { /* Clear the sub-menu floats */
+width: 100%; 
+overflow: hidden; 
+clear: both;
+}
+.dcjq-mega-menu ul.menu li .sub li {
+float: none; 
+font-size: 1em; 
+font-weight: bold;
+}
+/* Sub-menu Headers */
+.dcjq-mega-menu ul.menu li .sub li.mega-hdr { /* Sub-menu headers - i.e. 2nd level navigation */
+float: left; /* Float the sub-menus and give them a fixed width to from the mega menu rows */
+width: 260px;
+/*margin: 0 10px 20px 10px;
+border: 1px solid #ccc; */
+}
+.dcjq-mega-menu ul.menu li .sub a { /* Clear the styles from the top-level links and set the font styles */
+background: none; 
+border: none; 
+text-shadow: none; 
+color: #fff; 
+padding: 7px 20px; 
+display: block; 
+float: none; 
+text-decoration: underline; 
+font-size: 0.9em; 
+}
+.dcjq-mega-menu ul.menu li .sub li.mega-hdr a.mega-hdr-a:hover {
+color: #fff; 
+text-shadow: none;
+text-decoration: none;
+}
+/* Style the 3rd level links */
+.dcjq-mega-menu ul.menu li .sub li ul li {
+margin-right: 90px;
+}
+.dcjq-mega-menu ul.menu .sub li.mega-hdr li a {
+color: #444;
+font-weight: normal; 
+padding: 3px 0 3px 25px;
+}
+.dcjq-mega-menu ul.menu .sub li.mega-hdr li a:hover {
+color: #990000;
+}
