@@ -19,7 +19,7 @@ content-length: 4
 ----version----
 language: en
 version: 1
-revision: f7dc0a90-98be-4235-86b8-2805b17f4082
+revision: fe1dfec0-2aac-44ae-997b-468a19fd6f93
 
 ----field----
 field: {56D5A79C-9835-4334-BDDF-53C3CB583E72}
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-f7dc0a90-98be-4235-86b8-2805b17f4082
+fe1dfec0-2aac-44ae-997b-468a19fd6f93
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130924T132528:635156259284689770
+20130925T130837:635157113174371952
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -70,3 +70,10 @@ key: __updated by
 content-length: 14
 
 sitecore\admin
+----field----
+field: {A14F1B0C-4384-49EC-8790-28A440F3670C}
+name: __Semantics
+key: __semantics
+content-length: 77
+
+{1652F456-577A-4926-8F71-FEE286B05D4F}|{E533BA5D-D656-472C-A8BF-01268EE73990}

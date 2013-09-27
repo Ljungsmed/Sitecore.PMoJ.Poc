@@ -2,9 +2,9 @@
 version: 1
 id: {1E031B96-56C6-44CA-85F1-669ED2B1127D}
 database: master
-path: /sitecore/content/Home/News/News 1
+path: /sitecore/content/Home/News/Michael Jordan
 parent: {60A124F1-70C8-4B29-9242-109201796D34}
-name: News 1
+name: Michael Jordan
 master: {00000000-0000-0000-0000-000000000000}
 template: {509C5EF6-0795-4F2B-9E4D-F54330BC1831}
 templatekey: News
@@ -16,18 +16,25 @@ key: __sortorder
 content-length: 3
 
 100
+----field----
+field: {21F74F6E-42D4-42A2-A4B4-4CEFBCFBD2BB}
+name: __Facets
+key: __facets
+content-length: 38
+
+{7146F1A4-45FB-4CEC-9855-C95E9E595827}
 ----version----
 language: en
 version: 1
-revision: a9eff9e1-ee69-42e6-bf54-0e52614147b3
+revision: 3c613ce3-1dd6-4cde-b2b6-332fc9924d26
 
 ----field----
 field: {56D5A79C-9835-4334-BDDF-53C3CB583E72}
 name: Title
 key: title
-content-length: 6
+content-length: 14
 
-News 1
+Michael Jordan
 ----field----
 field: {C6A33A13-22B6-4097-B110-3667F199E081}
 name: News Heading
@@ -55,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-a9eff9e1-ee69-42e6-bf54-0e52614147b3
+3c613ce3-1dd6-4cde-b2b6-332fc9924d26
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130924T132528:635156259283789680
+20130925T184744:635157316642281138
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -70,3 +77,10 @@ key: __updated by
 content-length: 14
 
 sitecore\admin
+----field----
+field: {A14F1B0C-4384-49EC-8790-28A440F3670C}
+name: __Semantics
+key: __semantics
+content-length: 77
+
+{1652F456-577A-4926-8F71-FEE286B05D4F}|{E533BA5D-D656-472C-A8BF-01268EE73990}
