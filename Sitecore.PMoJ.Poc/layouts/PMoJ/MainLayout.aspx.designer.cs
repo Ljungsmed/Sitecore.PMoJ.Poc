@@ -13,8 +13,7 @@ namespace Sitecore.PMoJ.Poc.layouts.PMoJ {
     public partial class MainLayout {
         
         /// <summary>
-<<<<<<< Updated upstream
-=======
+
         /// mainform control.
         /// </summary>
         /// <remarks>
@@ -24,7 +23,7 @@ namespace Sitecore.PMoJ.Poc.layouts.PMoJ {
         protected global::System.Web.UI.HtmlControls.HtmlForm mainform;
         
         /// <summary>
->>>>>>> Stashed changes
+
         /// Sublayout1 control.
         /// </summary>
         /// <remarks>

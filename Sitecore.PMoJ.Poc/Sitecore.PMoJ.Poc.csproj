@@ -39,17 +39,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="Sitecore.ContentSearch">
-      <HintPath>C:\inetpub\wwwroot\sitecoreministryofjustice\Website\bin\Sitecore.ContentSearch.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.ContentSearch.Linq">
-      <HintPath>C:\inetpub\wwwroot\sitecoreministryofjustice\Website\bin\Sitecore.ContentSearch.Linq.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.ContentSearch.Linq.Lucene">
-      <HintPath>C:\inetpub\wwwroot\sitecoreministryofjustice\Website\bin\Sitecore.ContentSearch.Linq.Lucene.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.ContentSearch.LuceneProvider">
-      <HintPath>C:\inetpub\wwwroot\sitecoreministryofjustice\Website\bin\Sitecore.ContentSearch.LuceneProvider.dll</HintPath>
     <Reference Include="Sitecore.ContentSearch, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Library\Sitecore.ContentSearch.dll</HintPath>
@@ -109,19 +98,6 @@
     <Compile Include="layouts\PMoJ\Sublayouts\HomeDisplay.ascx.designer.cs">
       <DependentUpon>HomeDisplay.ascx</DependentUpon>
     </Compile>
-    <Compile Include="layouts\PMoJ\Sublayouts\Searchbox.ascx.cs">
-      <DependentUpon>Searchbox.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="layouts\PMoJ\Sublayouts\Searchbox.ascx.designer.cs">
-      <DependentUpon>Searchbox.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="layouts\PMoJ\Sublayouts\SearchResults.ascx.cs">
-      <DependentUpon>SearchResults.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="layouts\PMoJ\Sublayouts\SearchResults.ascx.designer.cs">
-      <DependentUpon>SearchResults.ascx</DependentUpon>
     <Compile Include="layouts\PMoJ\Sublayouts\NewsDisplay.ascx.cs">
       <DependentUpon>NewsDisplay.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -242,10 +218,10 @@
       <SubType>ASPXCodeBehind</SubType>
     </Content>
     <Content Include="layouts\PMoJ\Sublayouts\HomeDisplay.ascx" />
-    <Content Include="layouts\PMoJ\Sublayouts\Searchbox.ascx" />
-    <Content Include="layouts\PMoJ\Sublayouts\SearchResults.ascx" />
     <Content Include="layouts\PMoJ\Sublayouts\NewsDisplay.ascx" />
     <Content Include="layouts\PMoJ\Sublayouts\QuestionaireContainer.ascx" />
+    <Content Include="layouts\PMoJ\Sublayouts\Searchbox.ascx" />
+    <Content Include="layouts\PMoJ\Sublayouts\SearchResults.ascx" />
     <Content Include="layouts\PMoJ\Sublayouts\TestCitizenLogin.ascx" />
     <Content Include="layouts\PMoJ\Sublayouts\TopArea.ascx" />
     <Content Include="layouts\PMoJ\Sublayouts\TopAreaHome.ascx" />
