@@ -112,6 +112,18 @@
     <Compile Include="layouts\PMoJ\Sublayouts\QuestionaireContainer.ascx.designer.cs">
       <DependentUpon>QuestionaireContainer.ascx</DependentUpon>
     </Compile>
+    <Compile Include="layouts\PMoJ\Sublayouts\Searchbox.ascx.cs">
+      <DependentUpon>Searchbox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\PMoJ\Sublayouts\Searchbox.ascx.designer.cs">
+      <DependentUpon>Searchbox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\PMoJ\Sublayouts\SearchResults.ascx.cs">
+      <DependentUpon>SearchResults.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\PMoJ\Sublayouts\SearchResults.ascx.designer.cs">
+      <DependentUpon>SearchResults.ascx</DependentUpon>
+    </Compile>
     <Compile Include="layouts\PMoJ\Sublayouts\TestCitizenLogin.ascx.cs">
       <DependentUpon>TestCitizenLogin.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
