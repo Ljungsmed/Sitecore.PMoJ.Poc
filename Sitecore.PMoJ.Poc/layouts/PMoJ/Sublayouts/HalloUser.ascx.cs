@@ -7,16 +7,16 @@ namespace Sitecore.PMoJ.Poc.layouts.PMoJ.Sublayouts
     {
         private void Page_Load(object sender, EventArgs e)
         {
-            if (Sitecore.Context.IsLoggedIn)
-            {
-                ltUser.Text = "Welcome " + Sitecore.Context.User.Name;
-                btLogout.Visible = true;
-            }
-            else
-            {
-                ltUser.Text = "Please login";
-                btLogout.Visible = false;
-            }
+            //if (Sitecore.Context.IsLoggedIn)
+            //{
+            //    ltUser.Text = "Welcome " + Sitecore.Context.User.Name;
+            //    btLogout.Visible = true;
+            //}
+            //else
+            //{
+            //    ltUser.Text = "Please login";
+            //    btLogout.Visible = false;
+            //}
             // Put user code to initialize the page here
         }
 
