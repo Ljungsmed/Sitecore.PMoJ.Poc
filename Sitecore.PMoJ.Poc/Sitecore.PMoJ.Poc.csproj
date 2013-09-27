@@ -114,12 +114,14 @@
     </Compile>
     <Compile Include="layouts\PMoJ\Sublayouts\Searchbox.ascx.cs">
       <DependentUpon>Searchbox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="layouts\PMoJ\Sublayouts\Searchbox.ascx.designer.cs">
       <DependentUpon>Searchbox.ascx</DependentUpon>
     </Compile>
     <Compile Include="layouts\PMoJ\Sublayouts\SearchResults.ascx.cs">
       <DependentUpon>SearchResults.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="layouts\PMoJ\Sublayouts\SearchResults.ascx.designer.cs">
       <DependentUpon>SearchResults.ascx</DependentUpon>

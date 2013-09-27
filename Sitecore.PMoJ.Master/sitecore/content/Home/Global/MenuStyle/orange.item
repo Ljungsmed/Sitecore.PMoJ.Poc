@@ -1,0 +1,23 @@
+----item----
+version: 1
+id: {C2C9C8CE-9C08-425D-B395-1A9B2D3B2AB3}
+database: master
+path: /sitecore/content/Home/Global/MenuStyle/orange
+parent: {A8582C25-6710-4CFA-A271-5E483B4D1DA6}
+name: orange
+master: {00000000-0000-0000-0000-000000000000}
+template: {DF9CD0CA-7D28-4341-90BF-FB42494F87D0}
+templatekey: StandardTitle
+
+----version----
+language: en
+version: 1
+revision: 21169a7d-1145-47a5-bd96-512a9d77164f
+
+----field----
+field: {56D5A79C-9835-4334-BDDF-53C3CB583E72}
+name: Title
+key: title
+content-length: 6
+
+orange

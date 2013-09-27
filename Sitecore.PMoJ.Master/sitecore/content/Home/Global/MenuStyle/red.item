@@ -1,0 +1,23 @@
+----item----
+version: 1
+id: {D4EEA082-B0D3-46DA-A59B-67B23433A5E4}
+database: master
+path: /sitecore/content/Home/Global/MenuStyle/red
+parent: {A8582C25-6710-4CFA-A271-5E483B4D1DA6}
+name: red
+master: {00000000-0000-0000-0000-000000000000}
+template: {DF9CD0CA-7D28-4341-90BF-FB42494F87D0}
+templatekey: StandardTitle
+
+----version----
+language: en
+version: 1
+revision: 8a505f1e-76b0-4730-a6a4-83348ae3d6ec
+
+----field----
+field: {56D5A79C-9835-4334-BDDF-53C3CB583E72}
+name: Title
+key: title
+content-length: 3
+
+red
