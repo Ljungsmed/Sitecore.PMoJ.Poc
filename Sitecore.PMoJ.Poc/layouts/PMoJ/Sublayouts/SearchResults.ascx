@@ -35,3 +35,15 @@
     </asp:Repeater>
 </ul>
 
+
+<h2>Latest news</h2>
+
+<ul>
+    <asp:Repeater runat="server" ID="rpLatestNews" OnItemDataBound="rpLatestNews_OnItemDataBound">
+        <ItemTemplate>
+            <li>
+                <asp:HyperLink runat="server" ID="link"></asp:HyperLink>
+            </li>
+        </ItemTemplate>
+    </asp:Repeater>
+</ul>
