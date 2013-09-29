@@ -1,5 +1,7 @@
 ﻿@import url(http://fonts.googleapis.com/css?family=Lato);
 
+.wrap {width: 1100px; margin: 0 auto;}
+
  body {
     width:960px;
     font-family:"Lato", Calibri,Arial;
@@ -34,31 +36,71 @@ topSearch {
     
     
 }
-topSearch a:hover{ font-family:lato; font-size:14px; color:black}
-topSearch a{ font-family:lato; font-size:14px; color:white; padding-left:5px;}	
+	topSearch a:hover{ font-family:lato; font-size:14px; color:black}
+	topSearch a{ font-family:lato; font-size:14px; color:white; padding-left:5px;}	
+	#search:focus { font-family:lato; font-size:15px; align:left;}
+	
+	
 
-subtitulo2{font-weight:10; font-family:lato; font-size:22px; line-height:35px;}
-titulo2 {font-weight:700; font-family:lato; font-size:34px; line-height:33px}
-body2 {font-weight:400; font-family:lato; font-size:16px; line-height:25px; align:left;}
+	subtitulo {font-weight:10; font-family:lato; font-size:22px; line-height:35px;}
+	titulo {font-weight:800; font-family:lato; font-size:34px; line-height:30px}
+	newsbody {font-weight:400; font-family:lato; font-size:16px; line-height:25px; align:left;}
+	noticiasbody { color:#d14747; font-weight:900; font-family:lato; font-size:18px; line-height:20px; align:left;}
+	noticiasbody a{ color:#d14747; font-weight:900; font-family:lato; font-size:18px; line-height:20px; align:left; }
+	noticiasbody a:hover{ color:#d14747; font-weight:900; font-family:lato; font-size:18px; line-height:20px; align:left;text-decoration: none; }
+	imagecaption { font-family:lato; font-size:10px; line-height:20px; align:left;}
+	#search2:focus { font-family:lato; font-size:15px; align:left;height:35px;width:230px;color:grey;}
+	login{ font-family:lato; font-size:14px; color:white}
+	login a:hover{ font-family:lato; font-size:14px; color:#07aaff}
+	login a{ font-family:lato; font-size:14px; color:white}	
+	menubothead {font-family:lato; font-size:15px; color:white; font-weight:700}
+	menubot a {font-family:lato; font-size:13px; color:white; font-weight:400; text-decoration:underline; opacity:0.7; line-height:15px;}
+	menubot a:hover {font-family:lato; font-size:13px; color:white; font-weight:400; text-decoration:none;opacity:1;line-height:15px;}
+	div.navegacao {height:200px; width:900px;margin-left:45px;}
+	div.seccao1 {height:520px; width:960px;margin:auto}
+	div.missao {height:200px; width:500px; float:left;margin-left:90px}
+	div.legislacao {height:200px; width:200px; float:right; margin:auto; margin-top:47px; margin-right:90px}
+	div.equipa {height:300px; width:960px;margin-left:70px}
+	div.noticiasheader {height:90px; width:960px;margin-left:90px}
+	div.noticias{height:250px; width:960px;margin-left:90px}
+	div.noticias1 {height:200px; width:320px; float:left;margin:auto}
+	div.concursos {height:280px; width:960px;margin-left:70px}
+	div.pareceres {height:250px; width:960px;margin-left:60px}
+	div.contactos {height:280px; width:960px;margin-left:60px}
+	div.topo {height:70px; width:1100px; background-color:#202123; margin:auto}
+	div.imagemtopo {width:350px; float:left; margin:auto}
+	div.imagembotao {width:50px; float:left;margin-top:10px}
+	div.search {width:230px; float:left;margin-top:15px}
+	div.login {width:200px; float:left; margin-top:15px;float:right}
+	div.titulo {height:100px; width:960px;margin-left:90px; font-family:Lato; font-weight:400; font-color:#d14747;}
+	div.linha {height:70px; width:960px;margin-left:90px}
+	div.subtitulo {height:200px; width:850px;margin-left:90px}
+	div.body {height:700px; width:960px;margin:auto}
+	div.imagemlateral {height:200px; width:400px; float:left;margin-left:90px}
+	div.menufooter {height:500px; width:1100px; background-color:#292a2e;margin:auto}
+	div.menubot {height:70px; width:1000px; background-color:#292a2e; margin:auto; margin-left:100px; margin-top:-80px}
+	div.menuentidades {width:160px; float:left; margin:auto}
+	div.menujustica {width:165px; float:left;margin:auto}
+	div.menuservicos {width:155px; float:left; margin:auto}
+	div.menupublicacoes {width:140px; float:left; margin:auto}
+	div.anexos {height:400px; width:960px;margin-left:63px; margin:auto}
+	div.bottom {height:200px; width:1100px; background-color:#292a2e;margin:auto}
 
-#search:focus { font-family:lato; font-size:15px; align:left;}
-login{ font-family:lato; font-size:14px; color:white}
-login a:hover{ font-family:lato; font-size:14px; color:#07aaff}
-login a{ font-family:lato; font-size:14px; color:white}	
-menubothead {font-family:lato; font-size:15px; color:white; font-weight:700}
-menubot a {font-family:lato; font-size:13px; color:white; font-weight:400; text-decoration:underline; opacity:0.7; line-height:15px;}
-menubot a:hover {font-family:lato; font-size:13px; color:white; font-weight:400; text-decoration:none;opacity:1;line-height:15px;}
+
+
+
+
+
 
 newsDate { font-family:lato; font-weight:400; font-size:12px; line-height:20px; align:left; color:#2391dc; margin-left:0px;}
 newsTitle { font-family:lato; font-weight:700; font-size:18px; line-height:20px; align:left; color:#2391dc;margin-left:0px;}
-        
-imagecaption { font-family:lato; font-size:10px; line-height:20px; align:left;}
+
 .dcjq-mega-menu ul.menu {
     font-family:lato; 
     font-weight:700;
 }
-/* Demo Styles */
-.wrap {width: 960px; margin: 0 auto;}
+
+
 .auto-style3 {
     vertical-align: top;
     width: 152px;

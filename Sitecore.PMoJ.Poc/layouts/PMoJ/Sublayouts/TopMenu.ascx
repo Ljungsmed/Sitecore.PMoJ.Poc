@@ -6,7 +6,7 @@
     </HeaderTemplate>
     <ItemTemplate>        		
 			<li class="<%#: Item["menu style"] %>">
-                <a href="#">
+                <a href="<%#: Sitecore.Links.LinkManager.GetItemUrl(Item) %>">
                     <%#: Item["title"] %>
                 </a>
                 <asp:Repeater ID="RepeaterSubMenu" runat="server" ItemType="Sitecore.Data.Items.Item" >
@@ -15,7 +15,7 @@
                     </HeaderTemplate>
 				    <ItemTemplate>
 					    <li id="<%#: Item["menuid"] %>">
-                            <a href="#">
+                            <a href="<%#: Sitecore.Links.LinkManager.GetItemUrl(Item) %>">
                                 <%#: Item["title"] %>
                             </a>
 					    </li>

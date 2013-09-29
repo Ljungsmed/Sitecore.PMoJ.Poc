@@ -11,7 +11,9 @@
     <meta name="vs_defaultClientScript" content="JavaScript" />
     <meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5" />
     <%--<link href="/default.css" rel="stylesheet" />--%>
-    <sc:VisitorIdentification runat="server" />    
+    <sc:VisitorIdentification runat="server" />  
+    
+    <link href="/css/wffm.css" rel="stylesheet" type="text/css" />  
     
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" type="text/css" href="/css/home.css"> 

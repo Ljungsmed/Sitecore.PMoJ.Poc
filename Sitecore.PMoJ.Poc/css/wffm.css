@@ -5,7 +5,7 @@
     padding: 0 !important;
 }
 
-#questionaireContainer .scfSingleLineTextBorder, .scfEmailBorder, .scfRadioButtonListGeneralPanel, .scfMultipleLineTextBorder
+#questionaireContainer .scfSingleLineTextBorder, #questionaireContainer .scfEmailBorder, #questionaireContainer .scfRadioButtonListGeneralPanel, #questionaireContainer .scfMultipleLineTextBorder
 {
     margin: 0 0 0 50px !important;
 } 
@@ -15,7 +15,7 @@
     border: none !important;
 }
 
-#questionaireContainer .scfSingleLineGeneralPanel, .scfMultipleLineGeneralPanel, .scfEmailGeneralPanel
+#questionaireContainer .scfSingleLineGeneralPanel, #questionaireContainer .scfMultipleLineGeneralPanel, #questionaireContainer .scfEmailGeneralPanel
 {
     float: none !important;
 }
@@ -43,14 +43,14 @@
     width: 235px;
 }
 
-#questionaireContainer .scfSingleLineTextBox, .scfEmailTextBox
+#questionaireContainer .scfSingleLineTextBox, #questionaireContainer .scfEmailTextBox
 {
     display: block;
     width: 325px !important;
     height: 40px !important;
 }
 
-#questionaireContainer .scfSingleLineTextLabel, .scfEmailLabel, .scfMultipleLineTextLabel
+#questionaireContainer .scfSingleLineTextLabel, #questionaireContainer .scfEmailLabel, #questionaireContainer .scfMultipleLineTextLabel
 {
     float: none !important;
 }
@@ -59,4 +59,9 @@
 {
     display: block;
     width: 750px !important;
+}
+
+.scfForm
+{
+    max-width: 960px !important;
 }
