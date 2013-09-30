@@ -43,7 +43,7 @@ local.properties
 
 # Build results
 
-BuiltFiles_Debug.txt
+*BuiltFiles_Debug.txt
 
 [Dd]ebug/
 [Rr]elease/
