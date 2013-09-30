@@ -68,6 +68,7 @@
 .\Debug\layouts\PMoJ\Sublayouts\QuestionaireContainer.ascx
 .\Debug\layouts\PMoJ\Sublayouts\Searchbox.ascx
 .\Debug\layouts\PMoJ\Sublayouts\SearchResults.ascx
+.\Debug\layouts\PMoJ\Sublayouts\StandardPageDisplay.ascx
 .\Debug\layouts\PMoJ\Sublayouts\TestCitizenLogin.ascx
 .\Debug\layouts\PMoJ\Sublayouts\TopArea.ascx
 .\Debug\layouts\PMoJ\Sublayouts\TopAreaHome.ascx
