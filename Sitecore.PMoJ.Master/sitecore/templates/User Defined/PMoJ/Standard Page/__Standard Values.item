@@ -13,13 +13,13 @@ templatekey: Standard Page
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 254
+content-length: 367
 
-<r xmlns:xsd="http://www.w3.org/2001/XMLSchema"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{FAB3E337-2642-4F2A-90EE-DDD909CF1E3D}"><r id="{7AEA2885-B97E-4237-8882-38D457783357}" ph="top area" uid="{6AD262EF-C329-4735-92ED-557A62DA39CF}" /></d></r>
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{FAB3E337-2642-4F2A-90EE-DDD909CF1E3D}"><r id="{7AEA2885-B97E-4237-8882-38D457783357}" ph="top area" uid="{6AD262EF-C329-4735-92ED-557A62DA39CF}" /><r id="{0317921E-FE9E-4F16-ACE7-8DC44234150E}" ph="main content" uid="{0AB7329F-E13F-4A1B-8757-F37248C1E483}" /></d></r>
 ----version----
 language: en
 version: 1
-revision: a25e7246-ac56-4011-bbdb-bcef82718db6
+revision: 835ffdcc-d9ae-4861-846a-f41f116e91d4
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -41,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-a25e7246-ac56-4011-bbdb-bcef82718db6
+835ffdcc-d9ae-4861-846a-f41f116e91d4
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130926T204408:635158250483592489
+20130930T131156:635161435167668231
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
