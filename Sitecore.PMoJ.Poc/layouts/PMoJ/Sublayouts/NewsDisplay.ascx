@@ -1,37 +1,43 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="NewsDisplay.ascx.cs" Inherits="Sitecore.PMoJ.Poc.layouts.PMoJ.Sublayouts.NewsDisplay" %>
 <%@ Register TagPrefix="sc" Namespace="Sitecore.Web.UI.WebControls" Assembly="Sitecore.Kernel" %>
-<div style="height: 50px; width: 960px;">
+
+<div id="test-div" class="dcjq-mega-div" style="top: 153px; left: 0px; bottom: 0px; position: absolute; background-color: black; opacity: .50; z-index: 90; width: 100%;">
 </div>
-<div style="height: 100px; width: 960px; margin-left: 90px; font-family: Lato; font-weight: 400; font-color: #d14747;">
+<br>
+<br>
+<br>
+
+<div class="titulo">
     <div>
         <titulo>
                     <sc:Text Field="news heading" runat="server" />
                 </titulo>
     </div>
 </div>
-<div style="height: 70px; width: 960px; margin-left: 90px;">
-    <img src="/images/b2_noticias_line.jpg" alt="" width="900px">
+<div class="linha">
+	<IMG SRC="/images/b2_noticias_line.jpg" ALT="" width="900px">
 </div>
-<div style="height: 200px; width: 850px; margin-left: 90px;">
+
+<div class="subtitulo">
     <subtitulo>
                 <sc:Text Field="news abstract" runat="server" />
             </subtitulo>
 </div>
 
-<div style="height: 400px; width: 960px; margin-left: 90px;">
-    <div style="height: 200px; width: 400px; float: left">
+<div class="body">
+    <div class="imagemlateral">
         <sc:Image Field="news image" runat="server" />
     </div>
-    <div style="height: 200px; width: 500px; float: left">
-        <sc:Text Field="news content" runat="server" />
+    <div style="height:200px; width:500px; float:right;margin-top:-170px">
+        <newsbody><sc:Text Field="news content" runat="server" /></newsbody>
     </div>
 </div>
-<div style="height: 400px; width: 960px; margin-left: 90px;">
+<div class="anexos">
 
     <div>
-        <img src="images/b2_noticias_anexos.jpg" alt="">
+        <img src="/images/b2_noticias_anexos.jpg" alt="">
     </div>
 </div>
-<div>
+<div class="bottom"> 
     <img src="/images/a1_homepage_footer.jpg" alt="" width="1100px">
 </div>

@@ -13,12 +13,12 @@ namespace Sitecore.PMoJ.Poc.layouts.PMoJ.Sublayouts {
     public partial class TopArea {
         
         /// <summary>
-        /// Sublayout1 control.
+        /// Sublayout2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::Sitecore.Web.UI.WebControls.Sublayout Sublayout1;
+        protected global::Sitecore.Web.UI.WebControls.Sublayout Sublayout2;
     }
 }

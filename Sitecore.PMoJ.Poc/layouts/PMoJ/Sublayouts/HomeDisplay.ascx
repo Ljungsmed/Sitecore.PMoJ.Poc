@@ -1,5 +1,6 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="HomeDisplay.ascx.cs" Inherits="Sitecore.PMoJ.Poc.layouts.PMoJ.Sublayouts.HomeDisplay" %>
 <%@ Register TagPrefix="sc" Namespace="Sitecore.Web.UI.WebControls" Assembly="Sitecore.Kernel" %>
+<div id="test-div" class="dcjq-mega-div" style="top: 388px; left: 0px; bottom: 0px; position: absolute; background-color: black; opacity: .50; filter: alpha(opacity=50); z-index: 90; width: 100%; height: 100%;"></div>
 <div id="dmenuSeparator" style="background-color: #f5f5f4; margin-left: 0px; width: 1100px; height: 50px;"></div>
 <div style="background-color: #f5f5f4; margin-left: 0px;">
 
