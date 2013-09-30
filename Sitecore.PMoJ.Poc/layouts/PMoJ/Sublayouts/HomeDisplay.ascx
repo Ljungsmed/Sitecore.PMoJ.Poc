@@ -2,6 +2,7 @@
 <%@ Register TagPrefix="sc" Namespace="Sitecore.Web.UI.WebControls" Assembly="Sitecore.Kernel" %>
 <div id="dmenuSeparator" style="background-color: #f5f5f4; margin-left: 0px; width: 1100px; height: 50px;"></div>
 <div style="background-color: #f5f5f4; margin-left: 0px;">
+
     <div id="HomeNews" style="width: 1100px; background-color: #f5f5f4; padding-bottom: 0px; border-bottom: 0px;">
 
         <div style="height: 380px; width: 620px; float: left;">

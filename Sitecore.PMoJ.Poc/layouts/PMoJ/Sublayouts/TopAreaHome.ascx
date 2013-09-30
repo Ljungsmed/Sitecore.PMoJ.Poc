@@ -3,7 +3,7 @@
 <div id="MainHeadLogoAndSearch" style="width: 1100px;">
     <div id="LogoAndLogin" style="background-color: #202123; height: 75px; width: 100%">
         <div style="width: 400px; float: left; margin-left: 90px;">
-            <img src="images/home_area_top.jpg" alt="">
+            <img src="/images/home_area_top.jpg" alt="">
         </div>
 
         <div style="width: 200px; float: left; margin-top: 15px; float: right">
@@ -11,7 +11,7 @@
         </div>
     </div>
 
-    <div id="dsearcharea" class="welcome" style="background-image: url(images/home_justica.jpg)">
+    <div id="dsearcharea" class="welcome" style="background-image: url(/images/home_justica.jpg)">
         <div style="padding-top: 30px;">Bem-Vindo ao sítio do Ministério da Justiça</div>
         <div class="desc" style="padding-top: 20px;">Aqui poderá consultar toda a informação ligada ao Ministério da Justiça</div>
         <div style="margin-top: 40px; width: 100%;">
